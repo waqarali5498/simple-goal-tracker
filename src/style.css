@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  color: gray;
+}
+.btn {
+  padding: 0.6em;
+  background-color: gray;
+  color: #fff;
+}
+
+input {
+  padding: 0.6em;
+}
+
+label,
+input,
+span,
+.btn {
+  margin: 8px;
+}
+ul {
+  list-style-type: none;
+}
+
+.completed {
+  text-decoration-line: line-through;
+}
+span {
+  color: gray;
+  font-weight: 700;
+  font-size: larger;
+}
